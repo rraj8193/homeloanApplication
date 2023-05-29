@@ -1,13 +1,10 @@
 package com.project.homeloanApp;
 
-/**
- * Hello world!
- *
- */
+import UserPackage.UserDAOImpl;
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+    	UserDAOImpl usersdetails = new UserDAOImpl();
     }
 }
